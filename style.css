@@ -11,6 +11,9 @@ header {
   justify-content: space-between;
   font-size: 24px;
 }
+h1,h3,p,li {
+padding-left: 16px;
+}
 
 body {
   background-color: rgb(189, 214, 249);
@@ -30,6 +33,7 @@ nav a {
   display: inline-block;
   border-radius: 50%;
   width: 200px;
+ padding-left: 20px;
 }
 
 .info {
