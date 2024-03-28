@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(153, 191, 244);
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+body {
+  background-color: rgb(189, 214, 249);
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: darkslategray;
+}
+
+.profile img {
+  display: inline-block;
+  border-radius: 50%;
+  width: 200px;
+}
+
+.info {
+  border-top: 2px dashed rgb(111, 139, 149);
+  padding-top: 8px;
+}
+
+.skill {
+  border-top: 2px dashed rgb(111, 139, 149);
+  padding-top: 8px;
+}
+
+.edu img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-edu {
+  border: 2px solid darkred;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.table-edu th,
+td {
+  border: 2px dashed darkred;
+  text-align: center;
+  font-size: 24px;
+  padding: 8px;
+}
+
+.work img {
+  float: left;
+}
+
+.table-work {
+  border: 2px solid darkred;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.table-work th,
+td {
+  border: 2px dashed darkred;
+  text-align: center;
+  font-size: 24px;
+  padding: 8px;
+}
+
+fieldset {
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 16px;
+  font-size: 20px;
+}
